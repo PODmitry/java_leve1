@@ -30,6 +30,7 @@ public class lesson2 {
   }
 
   public static boolean checkBoolean(int a)
+
   {
     return a < 0;
   }

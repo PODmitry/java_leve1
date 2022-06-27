@@ -11,11 +11,11 @@ public class Employee {
 
     public Employee(String FIO, String position, String mail, String phone_number, double salary, int age) {
         this.FIO = FIO;
-        Position = position;
-        Mail = mail;
-        Phone_number = phone_number;
+        this.Position = position;
+        this.Mail = mail;
+        this.Phone_number = phone_number;
         this.salary = salary;
-        Age = age;
+        this.Age = age;
     }
 
     public int getAge() {
